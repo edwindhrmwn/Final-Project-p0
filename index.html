@@ -9,21 +9,33 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <img class="logo" src="img/logoBB.png" alt="logo">
-    <section>
-        <h1>HALO</h1>
-        <h2>Disini kalian dapat mengetahui berat ideal kalian loh</h2>
-        <h3>yuk input berat dan tinggi nya.</h3>
+    <section id="container">
+        <div id="top">
+            <h1>HALO</h1>
+            <h2>Disini kamu dapat mengetahui <br> berat ideal kamu loh</h2>
+            <h3>Yuk input tinggi dan berat kamu</h3>
+        </div>
+        <form id="form">
+            <label for="tinggi">Tinggi Badan</label> <br>
+            <input type="text" id="TB" name="TinggiBadan" placeholder="Tinggi Badan (Cm)"> <br><br>
+            <label for="berat">Berat Badan</label> <br>
+            <input type="text" id="BB" name="BeratBadan" placeholder="Berat Badan (Kg)"> <br><br>
+            <button id="button">hasil</button><br> <br>
+        </form>
+        <div id="H">
+            <span id="hasil">_</span>
+        </div>
+        <div class="penjelasan">
+            <ul>
+                <p>Jangan lupa dicek ya</p>
+                <li>Di bawah 18,5 = Berat badan kurang</li>
+                <li>18,5 – 22,9 = Berat badan normal</li>
+                <li>23 – 29,9 = Berat badan berlebih (kecenderungan obesitas)</li>
+                <li>30 ke atas = obesitas</li>
+            </ul>
+        </div>
     </section>
-    <img class="kb" src="./img/kurusGemuk.png" alt="Si lupa diri">
-    <form id="form">
-        <label for="tinggi">Tinggi Badan</label> <br>
-        <input type="number" id="TB" name="TinggiBadan"> <br><br>
-        <label for="berat">Berat Badan</label> <br>
-        <input type="number" id="BB" name="BeratBadan"> <br><br>
-        <button id="button" onclick="tampilkan()">hasil</button><br> <br>
-    </form>
-    <p id="hasil" name="hasil"></p>
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
+<a href="https://www.freepik.com/vectors/watercolor">Watercolor vector created by mokoland - www.freepik.com</a>
 </html>

@@ -1,53 +1,70 @@
 body {
-    background-color: rgb(255, 184, 255);
     height: 100%;
-    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/18449077.jpg);
+    background-attachment: fixed;
 }
-.logo {
-    width: 200px;
+a {
+    color: white;
+}
+.kb {
+    /* justify-content: flex-end; */
+    width: 120px;
+    margin-left: 0px;
+    
     position: absolute;
-    padding-top: 20px;
 }
 
-section{
+#container {
+    height: 500px;
+    width: 550px;
+    margin: 100px auto;
+    background: white;
+    box-shadow: 17px 0px 10px -11px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#top {
     background-color: #ffd9f7;
     width: 100%;
     margin: auto;
+
 }
 
 h1 {
-    margin-top: 0px;
-    padding-top: 5px;
+    margin-top: 30px;
+    padding-top: 20px;
     text-align: center;
+    color: #815477;
     /* background-color:  */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    height: 50px;
+    color: #3d2a39;
+    height: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h3 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+
 }
 
 #form {
     text-align: left;
     /* margin-left: 600px; */
     margin: auto;
-    width: 300px;
-}
-
-#form select{
-    width: 178px;
-}
-
-.kb {
-    position: absolute;
+    width: 200px;
 }
 
 #button {
@@ -56,9 +73,18 @@ h3 {
     width: 178px;
 }
 
-#hasil {
-    width: 1250px;
-    /* margin-left: 600px; */
-    position: absolute;
-    text-align: center;
+.penjelasan {
+    text-align: left;
+    font-weight: 30px;
+}
+li {
+    height: 20px;
+    list-style: none;
+}
+#button {
+    background-color: #ffd9f7;
+    border-color: white;
+    border-radius: 9px;
+    height: 30px;
+    color: #503a4b;
 }
